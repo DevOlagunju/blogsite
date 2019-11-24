@@ -6,9 +6,9 @@
     "scripts": {
         "deploy": "gh-pages -d dist"
     },
-    "homepage": "https://larryonick.github.io/blogsite",
+    "homepage": "https://olagunju1995.github.io/blogsite",
     "keywords": [],
-    "author": "Lanre Fasuyi",
+    "author": "ibrahim wasiu",
     "license": "ISC",
     "dependencies": {
         "gh-pages": "^2.1.1"
