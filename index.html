@@ -404,7 +404,6 @@
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                <input type="hidden" name="_next" value="https://olagunju1995.github.io/blogsite" />
               </div>
             </div>
           </form>
@@ -616,11 +615,11 @@
         success: function (data){
 
        
-$("#alert_message").html(data);
-},
-error: function(){
-alert("yaay");
-}
+       $("#alert_message").html(data);
+    },
+      error: function(){
+     alert("yaay");
+       }
 
     })
   });
