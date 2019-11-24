@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    font-family: "Lobster", cursive;
+    font-family: "Lora", serif;
+}
+
+.masthead>.container>.intro-text>.intro-lead-in {
+    font-family: "Lobster", cursive;
+    color: hotpink;
+    text-shadow: 2em;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.section-heading {
+    font-family: "Lobster", cursive;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.bg-custom {
+    color: hotpink !important;
+}
