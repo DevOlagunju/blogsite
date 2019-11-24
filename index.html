@@ -610,7 +610,7 @@
           message: message
         },
      
-        success: function() {
+        success: function(data) {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -621,6 +621,7 @@
             .append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
+          $("#alert_message").html(data);
         },
         error: function() {
           // Fail message
