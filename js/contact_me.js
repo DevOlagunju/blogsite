@@ -22,6 +22,7 @@ $(function() {
       $.ajax({
         url: "formspree.io/thedonwasiu@gmail.com",
         type: "POST",
+        dataType:"JSON",
         data: {
           name: name,
           phone: phone,
